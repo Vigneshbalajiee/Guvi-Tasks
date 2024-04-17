@@ -1,4 +1,7 @@
 Create a file with .txt extension (/home/demo.txt). Change the permission set if that file, so that any user can read it, group can read/write & owner can read/write/execute it.
 
 touch demo.txt
-chmod 467 demo.txt
+for any user can read it and group can read and write
+chmod 460 demo.txt
+owner can read,write and execute
+chmod 760 demo.txt
