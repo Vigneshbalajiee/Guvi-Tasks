@@ -1,7 +1,10 @@
-Get me IP address of particular domain (guvi.in) 
+Get me IP address of particular domain (guvi.in) - nslookup command
 
-How do I find my CPU/memory usage of my server?
+How do I find my CPU/memory usage of my server? - free/ top command
 
-Test the connectivity between 2 nodes? 
+Test the connectivity between 2 nodes? - ping command to check connectivity
 
 I have deployed an application in guvi.com:9000, and logs shows my app is running, but I’m unable to view the page. Check whether my port is open or not ?
+     telnet command can be used to check but it is old and not secure. I tried with nmap to check the port. Not sure about lsof and netstat - explanation required.
+
+added screenshots in separate folder
