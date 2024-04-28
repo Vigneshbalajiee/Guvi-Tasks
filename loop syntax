@@ -1,0 +1,32 @@
+until [condition]
+do
+    action
+done ------------
+#!/bin/bash
+a=11
+until [ $a -lt 10 ]
+do
+        echo $a
+        a=`expr $a + 1`
+        if [ $a -eq 15 ]
+        then  
+        break
+        fi
+done
+-------------------------------------
+while [ condition ]
+do
+    action
+done ------------
+#!/bin/bash
+a=0
+while [ $a -lt 10 ]
+do
+    echo $a
+    a= `expr $a + 2`
+done
+---------------------------------------
+for [comdition]
+do 
+action
+done------
