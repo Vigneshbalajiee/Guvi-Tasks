@@ -1,0 +1,10 @@
+version: '3'
+services:
+  nginix:
+    image: nginxtask
+    container_name: nginxtask
+    volumes:
+      - ./backup:/var/opt/nginx
+    ports:
+      - 8080:80
+
