@@ -1,0 +1,8 @@
+NameSpace are the mechanism used to isolate the resources. Names of resources need to be unique within a namespace, but not across namespaces.
+
+Default: k8s include this namespace automatically so that we can start using cluster without creating name space
+Kube-node-lease: with Lease objects control plane get to know the status of nodes 
+Kube-public: This is reserved and it is mostly for cluster usage. 
+Kube-system: for objects created by Kubernetes system
+
+namespace resources are not themselves in a namespace. And low-level resources, such as nodes and persistentVolumes, are not in any namespace.
